@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import '../scss/NavBar.scss'
 
 const NavBar: React.FC = () => {
   return (

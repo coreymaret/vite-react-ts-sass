@@ -34,7 +34,7 @@ const App: React.FC = () => {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        <Route Component={NotFound} />
+        <Route path="*" Component={NotFound} />
     </Routes>
     <Footer />
     </BrowserRouter>
